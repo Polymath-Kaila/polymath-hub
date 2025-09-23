@@ -7,7 +7,7 @@ export default function App({ Component, pageProps, router }) {
     <PageTransitionWrapper route={router.route}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Evans Kaila — Mega Portfolio</title>
+        <title>polymath</title>
         <meta
           name="description"
           content="Evans Kaila — Developer, Mentor, Builder. Explore projects, teaching, achievements."

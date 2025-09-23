@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import eggs from '@/data/eggs.json'
 
 const BOOT_LINES = [
-  'Booting Evans-OS v1.0.0 ...',
+  'Booting Polymath-OS v1.0.0 ...',
   'Loading modules: projects, teaching, experience, achievements ...',
   'Type "help" to begin.'
 ]
@@ -67,27 +67,27 @@ export default function TerminalLanding() {
         break
       case 'about':
         pushLines([
-          'I am Evans Kaila — a builder, mentor, and ambitious computer science student.',
-          'I create full‑stack apps, teach peers, and document a journey aimed at studying abroad.'
+          'I am polymath Kaila — a programmer, mentor, and ambitious computer science student.',
+          'I create full‑stack apps, teach peers, and document a journey aimed at going overseas.'
         ])
         break
       case 'projects':
         pushLines([
           'Type "visit" then open the Projects section.',
-          'Featured: youtube-clone, bank-api, mentor-tracker ...'
+          'Featured: youtube-clone, emotionhub, connevio ...'
         ])
         break
       case 'teach':
         pushLine('Mentorship & workshops: JS, Backend APIs, real-world projects.')
         break
       case 'experience':
-        pushLine('Equity Bank (IT) — integrations, support, learning fast.')
+        pushLine('Equity Bank (customer service) — integrations, support, learning fast.')
         break
       case 'achievements':
-        pushLine('Science & Engineering Fair — smart banking prototype.')
+        pushLine('Young Scientist Kenya — social media networking prototype.')
         break
       case 'contact':
-        pushLine('Email: evans@example.com | GitHub: github.com/yourname')
+        pushLine('Email: polymathkaila81@gmail.com | GitHub: github.com/polymath-kaila')
         break
       case 'visit':
         router.push('/home')
@@ -120,7 +120,7 @@ function dream(){ return 'Build. Teach. Inspire.' }`.repeat(60)}
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 pt-16 pb-24">
         <div className="border border-emerald-700 rounded-xl p-6 bg-bg-secondary/60 backdrop-blur-md shadow-glow">
-          <div className="text-terminal-green glow">Evans-OS :: interactive shell</div>
+          <div className="text-terminal-green glow">Polymath OS :: interactive shell</div>
           <div className="mt-4 space-y-1">
             {lines.map((l, idx) => (
               <div key={idx} className="whitespace-pre-wrap">{l}</div>

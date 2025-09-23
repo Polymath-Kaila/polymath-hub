@@ -1,4 +1,4 @@
-# Evans Kaila — Mega Portfolio
+# Polymath Kaila — Mega Portfolio
 
 An immersive, data-driven, **Next.js + Tailwind** portfolio with a terminal-style landing,
 3D hero, and JSON-powered content (projects, testimonials, experience, achievements).
@@ -86,4 +86,4 @@ You can add `/admin` with Decap CMS to edit JSON/Markdown in a visual dashboard 
 
 ---
 
-Made with ❤️ by Evans Kaila.
+Made with ❤️ by Polymath Kaila.

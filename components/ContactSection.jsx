@@ -12,7 +12,7 @@ export default function ContactSection() {
       {/* Description */}
       <AnimatedSection direction="up" delay={0.1}>
         <p className="text-text-muted mt-2">
-          Replace the action URL with your Formspree/EmailJS endpoint.
+          
         </p>
       </AnimatedSection>
 
