@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Amina K.",
+    "relation": "Student",
+    "testimonial": "Evans explains complex topics simply. I built my first React app thanks to his sessions.",
+    "contact": "amina@example.com",
+    "image": "/images/teaching/amina.jpg"
+  },
+  {
+    "name": "Brian O.",
+    "relation": "Mentee",
+    "testimonial": "His mentorship made me believe I could code. We shipped a backend in 2 weeks.",
+    "contact": "brian@example.com",
+    "image": "/images/teaching/brian.jpg"
+  }
+]

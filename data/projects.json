@@ -1,0 +1,50 @@
+[
+  {
+    "id": "youtube-clone",
+    "title": "YouTube Clone",
+    "tagline": "Streaming UX rebuilt with React & Firebase.",
+    "description": "Replicates YouTube core flow: player, comments, likes, auth, search.",
+    "tech": [
+      "React",
+      "Firebase",
+      "TailwindCSS"
+    ],
+    "images": [
+      "/images/projects/youtube-1.png",
+      "/images/projects/youtube-2.png"
+    ],
+    "github": "https://github.com/yourname/youtube-clone",
+    "demo": "https://your-youtube-clone.netlify.app"
+  },
+  {
+    "id": "bank-api",
+    "title": "Bank API",
+    "tagline": "Secure RESTful API for banking operations.",
+    "description": "JWT auth, transactions, statements, role-based access. Deployed as serverless functions or Docker-ready.",
+    "tech": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ],
+    "images": [
+      "/images/projects/bankapi-1.png"
+    ],
+    "github": "https://github.com/yourname/bank-api"
+  },
+  {
+    "id": "mentor-tracker",
+    "title": "Mentor Tracker",
+    "tagline": "Track mentorship sessions, goals, and outcomes.",
+    "description": "Lightweight tool used during teaching to record topics, attendees, and outcomes.",
+    "tech": [
+      "Next.js",
+      "Local JSON",
+      "TailwindCSS"
+    ],
+    "images": [
+      "/images/projects/mentor-1.png"
+    ],
+    "github": "https://github.com/yourname/mentor-tracker"
+  }
+]

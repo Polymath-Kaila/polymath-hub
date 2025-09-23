@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+html, body, #__next {
+  height: 100%;
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+.code-rain {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.07;
+}
+
+.code-rain pre {
+  white-space: pre;
+  line-height: 1.05;
+  animation: codeflow 20s linear infinite;
+  will-change: transform;
+}
+
+.glow {
+  text-shadow: 0 0 8px rgba(34,197,94,0.6);
+}
