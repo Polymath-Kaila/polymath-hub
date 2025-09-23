@@ -13,13 +13,13 @@ export default function Hero() {
           <motion.h1
             initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{duration:.6}}
             className="text-3xl md:text-5xl font-extrabold leading-tight">
-            Evans Kaila — <span className="text-accent-cyan">Builder</span>, Mentor, Dreamer
+            Polymath Kaila — <span className="text-accent-cyan">Programmer</span>, Mentor, Innovator
           </motion.h1>
           <motion.p
             initial={{opacity:0, y:20}} animate={{opacity:1, y:0, delay:.1}} transition={{duration:.6}}
             className="text-text-muted mt-4 max-w-prose">
-            I craft full‑stack apps, teach peers, and turn ideas into real products. Explore projects,
-            mentorship, and achievements — all in one immersive experience.
+            I’m an 18-year-old Computer Science student based in Nairobi Kenya, specializing in backend development. I design and build secure, scalable systems using Django, Node.js,PostgreSQL and many other technologies, with experience in APIs, authentication, and real-time applications. While my passion and focus are in backend engineering, I also work with React.js and TailwindCSS when full-stack solutions are needed.
+            Beyond coding, I mentor peers in programming and computer networking, simplifying complex concepts into practical lessons. This portfolio captures my journey, from backend projects and startup collaborations to teaching and growth in tech.
           </motion.p>
           <div className="mt-6 flex gap-3">
             <a href="#projects" className="bg-accent-cyan/10 border border-accent-cyan/40 text-accent-cyan px-4 py-2 rounded-lg hover:bg-accent-cyan/20 transition">See Projects</a>

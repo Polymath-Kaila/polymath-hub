@@ -1,0 +1,38 @@
+[
+  {
+    "id": "github",
+    "name": "GitHub",
+    "url": "https://github.com/Polymath-Kaila",
+    "icon": "FaGithub"
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/polymath-kaila-627838351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "icon": "FaLinkedin"
+  },
+  {
+    "id": "twitter",
+    "name": "Twitter",
+    "url": "https://x.com/polymath_kaila1",
+    "icon": "FaTwitter"
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "url": "https://www.tiktok.com/@polymath_kaila",
+    "icon": "FaTiktok"
+  },
+  {
+    "id": "email",
+    "name": "Email",
+    "url": "mailto:polymathkaila81@gmail.com",
+    "icon": "FaEnvelope"
+  },
+  {
+     "id": "instagram",
+    "name": "Instagram",
+    "url": "https://www.instagram.com/polymath_kaila/",
+    "icon": "FaInstagram"
+  }
+]
