@@ -10,16 +10,16 @@ const BOOT_LINES = [
 
 const HELP = [
   'Available commands:',
-  '  help            Show this help',
-  '  about           Who is Evans?',
-  '  projects        Quick list of projects',
-  '  teach           Teaching & mentorship',
-  '  experience      Work history',
-  '  achievements    Awards & fairs',
-  '  contact         How to reach me',
-  '  visit           Enter the full experience',
-  '  clear           Clear the screen',
-  '  sudo inspire    (try it)'
+  '  help       Show this help',
+  '  about      Who is Evans?',
+  '  projects   Quick list of projects',
+  '  teach      Teaching & mentorship',
+  '  experience Work history',
+  '  achievements Awards & fairs',
+  '  contact      How to reach me',
+  '  visit        Enter the full experience',
+  '  clear        Clear the screen',
+  '  sudo inspire  (try it)'
 ]
 
 export default function TerminalLanding() {
