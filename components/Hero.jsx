@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 opacity-5 pointer-events-none"
            style={{background: 'radial-gradient(600px circle at 50% 0%, rgba(56,189,248,.35), transparent 40%)'}}/>
       <div className="max-w-6xl mx-auto px-4 pt-12 pb-8 grid md:grid-cols-2 gap-8 items-center">
-        <div>Replace the action URL with your Formspree/EmailJS endpoint.
+        <div>
           <motion.h1
             initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{duration:.6}}
             className="text-3xl md:text-5xl font-extrabold leading-tight">
