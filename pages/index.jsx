@@ -9,15 +9,15 @@ const BOOT_LINES = [
 ]
 
 const HELP = [
- 'help     Show help',
- 'about    About me',
- 'proj     Projects',
- 'teach    Mentorship',
- 'exp      Experience',
- 'achv     Achievements',
- 'contact  Reach me',
- 'visit    Full site',
- 'clear    Reset',
+ 'help   Show help',
+ 'about  About me',
+ 'proj   Projects',
+ 'teach  Mentorship',
+ 'exp    Experience',
+ 'achv   Achievements',
+ 'cont   Reach me',
+ 'visit  Full site',
+ 'clear  Reset',
  'sudo inspire',
 ]
 
