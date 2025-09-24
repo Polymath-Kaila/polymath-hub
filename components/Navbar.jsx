@@ -6,8 +6,8 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Projects", href: "#projects" },
-    { name: "Experience", href: "#experience" },
     { name: "Teaching", href: "#teaching" },
+    { name: "Experience", href: "#experience" },
     { name: "Achievements", href: "#achievements" },
     { name: "Contact", href: "#contact" },
   ]
@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="text-xl font-bold text-accent-cyan">
-          Polymath OS
+          Polymath Kaila
         </a>
 
         {/* Desktop nav */}
