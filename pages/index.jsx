@@ -9,17 +9,16 @@ const BOOT_LINES = [
 ]
 
 const HELP = [
-  'Available commands:',
-  '  help       Show this help',
-  '  about      Who is Evans?',
-  '  projects   Quick list of projects',
-  '  teach      Teaching & mentorship',
-  '  experience Work history',
-  '  achievements Awards & fairs',
-  '  contact      How to reach me',
-  '  visit        Enter the full experience',
-  '  clear        Clear the screen',
-  '  sudo inspire  (try it)'
+ 'help     Show help',
+ 'about    About me',
+ 'proj     Projects',
+ 'teach    Mentorship',
+ 'exp      Experience',
+ 'achv     Achievements',
+ 'contact  Reach me',
+ 'visit    Full site',
+ 'clear    Reset',
+ 'sudo inspire',
 ]
 
 export default function TerminalLanding() {
@@ -71,7 +70,7 @@ export default function TerminalLanding() {
           'I create full‑stack apps, teach peers, and document a journey aimed at going overseas.'
         ])
         break
-      case 'projects':
+      case 'proj':
         pushLines([
           'Type "visit" then open the Projects section.',
           'Featured: youtube-clone, emotionhub, connevio ...'
@@ -80,10 +79,10 @@ export default function TerminalLanding() {
       case 'teach':
         pushLine('Mentorship & workshops: JS, Backend APIs, real-world projects.')
         break
-      case 'experience':
+      case 'exp':
         pushLine('Equity Bank (customer service) — integrations, support, learning fast.')
         break
-      case 'achievements':
+      case 'achv':
         pushLine('Young Scientist Kenya — social media networking prototype.')
         break
       case 'contact':
