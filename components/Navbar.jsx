@@ -1,19 +1,62 @@
-import Link from 'next/link'
+import { useState } from "react"
+import { Menu, X } from "lucide-react"
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const navLinks = [
+    { name: "Projects", href: "#projects" },
+    { name: "Experience", href: "#experience" },
+    { name: "Teaching", href: "#teaching" },
+    { name: "Achievements", href: "#achievements" },
+    { name: "Contact", href: "#contact" },
+  ]
+
   return (
-    <nav className="sticky top-0 z-50 bg-bg-primary/80 backdrop-blur border-b border-slate-700">
+    <nav className="sticky top-0 z-50 bg-bg-primary border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link href="/home" className="font-bold text-xl text-accent-cyan">Kaila<span className="text-accent-amber">.</span></Link>
-        <div className="hidden md:flex items-center gap-6 text-sm text-text-muted">
-          <a href="#projects" className="hover:text-text-primary">Projects</a>
-          <a href="#teaching" className="hover:text-text-primary">Teaching</a>
-          <a href="#experience" className="hover:text-text-primary">Experience</a>
-          <a href="#achievements" className="hover:text-text-primary">Achievements</a>
-          <a href="#contact" className="hover:text-text-primary">Contact</a>
+        {/* Logo */}
+        <a href="/" className="text-xl font-bold text-accent-cyan">
+          Polymath OS
+        </a>
+
+        {/* Desktop nav */}
+        <div className="hidden md:flex gap-6">
+          {navLinks.map(link => (
+            <a
+              key={link.name}
+              href={link.href}
+              className="hover:text-accent-amber transition"
+            >
+              {link.name}
+            </a>
+          ))}
         </div>
-        <Link href="/" className="text-xs text-text-muted hover:text-text-primary">Terminal</Link>
+
+        {/* Mobile menu button */}
+        <button
+          className="md:hidden p-2 rounded hover:bg-slate-800"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
       </div>
+
+      {/* Mobile dropdown */}
+      {isOpen && (
+        <div className="md:hidden bg-bg-secondary border-t border-slate-800 px-4 py-3 space-y-3">
+          {navLinks.map(link => (
+            <a
+              key={link.name}
+              href={link.href}
+              onClick={() => setIsOpen(false)}
+              className="block hover:text-accent-amber transition"
+            >
+              {link.name}
+            </a>
+          ))}
+        </div>
+      )}
     </nav>
   )
 }
