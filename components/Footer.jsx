@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="https://github.com/Polymath-Kaila" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-200">
             <FaGithub size={18} />
           </a>
-          <a href="https://www.linkedin.com/polymath-kaila" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors duration-200">
+          <a href= "https://www.linkedin.com/in/polymath-kaila-627838351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors duration-200">
             <FaLinkedin size={18} />
           </a>
           <a href="https://x.com/polymath_kaila1" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors duration-200">
